@@ -1,3 +1,29 @@
+Mixr Recipe App - Tracey Hill
+
+Uses the Gatsby/React to create a web-app with typescript support. 
+> yarn add global gatsby-cli //added the CLI globally via yarn
+
+Gatsby is used to build static Web Apps that follow the latest web standards, and are optimized to be highly performant. I chose Gatsby over Next.js based on speed. It is faster because there is no render time ans it is all pre rendered then delivered from a local cached cdn. Popular sites that use this React.js framework are, AirBnB.io, spotify, meetup and Nike campaigns site. 
+
+ESLint is enabled to find code problems and being run as part of the Mixr's continuous integration pipeline.
+Prettier is enabled for code formatting.
+
+Developed in VS Code on Windows 10 with:
+
+Node 12.18.4
+npm 6.14.6
+gatsby-cli version 2.18.0
+
+Pushed initial app to GitHub at https://github.com/tracey-web/mixr
+> git remote add origin https://github.com/tracey-web/mixr.git git branch -M main git push -u origin main
+
+Installed Material-UI - React UI Library
+> yarn add @material-ui/core
+> yarn add @material-ui/styles
+
+This project was bootstrapped with Gatsby framework template.
+> gatsby new mixr gatsby new mixr https://github.com/gatsbyjs/gatsby-starter-default
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
