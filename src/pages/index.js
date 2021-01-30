@@ -90,7 +90,6 @@ const IndexPage = () => {
         <SEO title="Home" />
         <Grid
           container
-          spacing={3}
           direction="row"
           justify="center"
           alignItems="center"
