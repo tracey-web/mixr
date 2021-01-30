@@ -96,7 +96,7 @@ const IndexPage = () => {
           alignItems="center"
           className={classes.root}
         >
-          <Grid item xs={10} sm={4}>
+          <Grid item xs={9} sm={4} md={3} lg={2}>
             <Card className={classes.card}>
               <CardContent>
                 <Typography className={classes.brandName}>mixr</Typography>

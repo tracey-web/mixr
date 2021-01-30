@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core"
+import { createMuiTheme, MuiThemeProvider, Box } from "@material-ui/core"
 
 let theme = createMuiTheme({
   typography: {
@@ -26,7 +26,7 @@ let theme = createMuiTheme({
 const Layout = ({ children }) => {
   return (
     <MuiThemeProvider theme={theme}>
-      <div
+      <Box
         style={{
           backgroundColor: "#fef4d6",
           margin: `0 auto`,
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-      </div>
+      </Box>
     </MuiThemeProvider>
   )
 }
